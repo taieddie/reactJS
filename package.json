@@ -1,0 +1,15 @@
+{
+  "name": "reactjs",
+  "version": "1.0.0",
+  "description": "Learning reactjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot -p 8081"
+  },
+  "author": "Eddie Tai",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.11.1",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
