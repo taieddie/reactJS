@@ -6,14 +6,14 @@ var config = {
    },
    devServer: {
       inline: true,
-      port: 8081
+      port: 8080
    },
    module: {
-      loaders: [
+      rules: [
          {
             test: /\.jsx?$/,
             exclude: /node_modules/,
-            loader: 'babel-loader',
+            loader: 'babel-loader?cacheDirectory',
             query: {
                presets: ['es2015', 'react']
             }
